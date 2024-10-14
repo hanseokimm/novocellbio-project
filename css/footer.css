@@ -1,0 +1,99 @@
+footer {
+    font-family: "NotoSansKR", sans-serif;
+    font-size: 1.6rem;
+    padding: 0 20px;
+    color: #606060;
+    background-color: #191919;
+    letter-spacing: -0.05em;
+}
+.f-in {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 260px;
+    margin: 0 auto;
+}
+.f-in > .f-top-btn {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #191919;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 100;
+    transition: transform .3s;
+}
+.f-in > .f-top-btn:hover {
+    transform: translateY(-10px);
+}
+.f-in > .f-top {
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.f-in > .f-bot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+.f-in > .f-bot .f-util {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.f-in > .f-bot .f-util a:hover {
+    border-bottom: 1px solid #fff;
+}
+.f-line {
+    display: inline-flex;
+    align-items: center;
+}
+.f-line::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    margin: 0 12px;
+    background-color: #606060;
+}
+@media (max-width: 1080px) {
+    .f-in > .f-top p:last-child {
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+    }
+    .f-in > .f-top p:last-child > .f-line:nth-child(3)::after {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .f-in > .f-top p:last-child {
+        width: 340px;
+    }
+    .f-in > .f-top p:last-child > .f-line:first-child::after {
+        display: none;
+    }
+    .f-in > .f-bot {
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+@media (max-width: 480px) {
+    footer {
+        font-size: 1.2rem;
+    }
+    .f-in {
+        height: 200px;
+    }
+    .f-line::after {
+        height: 11px;
+        margin: 0 8px;
+    }
+}
