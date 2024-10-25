@@ -1,6 +1,6 @@
 # 노보셀바이오
 <div align="center">
- <img src="https://github.com/user-attachments/assets/59ed394f-dd67-4f3c-9f18-5e1c9de11029" width= "500" height="500"/>
+ <img src="https://github.com/user-attachments/assets/154cd20f-c268-46c3-ad33-38a5b4dad816" width= "600" height="600"/>
 </div>
 
 - 노보셀바이오 메인 페이지를 클론 디자인한 프로젝트입니다.
