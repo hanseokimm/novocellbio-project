@@ -10,6 +10,10 @@
  - HTML, CSS, JavaScript, Potoshop
 <br>
 
+## ✈️ 작업물 바로가기
+ - https://kim28701.mycafe24.com/mmca/mmca_index.html
+<br>
+
 ## 📝 작업 내용
  - 자동 무한 루프 슬라이드 구현
  - 탭과 슬라이드 연동
