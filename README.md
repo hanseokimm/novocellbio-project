@@ -11,7 +11,7 @@
  - 2024.08.19 ~ 2024.09.08
 ## ⚙️ 사용 툴&기술
  - HTML, CSS, JavaScript, Potoshop
-## ✈️ 작업물 바로가기
+## 🛫 작업물 바로가기
  - https://kim28701.mycafe24.com/novo/novo_index.html
 ## 📝 작업 내용
  - 자동 무한 루프 슬라이드 구현
