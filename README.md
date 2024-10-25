@@ -11,7 +11,8 @@
 <br>
 
 ## ✈️ 작업물 바로가기
- - https://kim28701.mycafe24.com/mmca/mmca_index.html
+ - https://kim28701.mycafe24.com/novo/novo_index.html
+
 <br>
 
 ## 📝 작업 내용
